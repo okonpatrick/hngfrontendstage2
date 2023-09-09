@@ -1,0 +1,36 @@
+/* Center all elements vertically and horizontally */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Set a standard font-family */
+}
+
+/* Apply transition to all elements */
+h1, img, p, a {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Set font size and type for specific elements */
+h1 {
+    font-size: 28px; /* Adjust the font size as needed */
+}
+
+p {
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* Style the link (GitHub Repository) */
+a {
+    text-decoration: none;
+    color: #007BFF; /* Link color */
+    font-weight: bold;
+}
+
+/* Hover effect on link */
+a:hover {
+    color: #0056b3; /* Hover color */
+}
